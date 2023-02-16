@@ -37,4 +37,10 @@ public class Document {
         String remplacement = this.texte.substring(start,end);
         this.texte = leftPart + remplacement.toUpperCase() + rightPart;
     }
+
+    public void effacer(int start, int end) {
+        String leftPart = this.texte.substring(0, start);
+        String rightPart = this.texte.substring(end);
+        this.texte = leftPart + rightPart;
+    }
 }
