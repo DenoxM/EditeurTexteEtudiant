@@ -45,6 +45,6 @@ public class Document {
         this.texte = leftPart + rightPart;
     }
     public void clear() {
-        this.texte = "a";
+        this.texte = "";
     }
 }
